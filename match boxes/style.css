@@ -1,0 +1,77 @@
+body{
+    background-color: blueviolet;
+    place-items: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+.title{
+    text-align: center;
+    color:blanchedalmond;
+    font-size: large;
+}
+.score{
+    color: gold;
+}
+.boxes{
+    border: 2px;
+    border-color: chartreuse;
+    border-style: double;
+    width:308px;
+    height:304px;
+}
+.btn{
+    border: 1px;
+    border-color: cornsilk;
+    border-style: solid;
+    width:74px;
+    height:74px;
+    background-color: white;
+    cursor: pointer;
+    display: flexbox;
+}
+.color_selector{
+    color: antiquewhite;
+    padding: 4px;
+    border: 2px;
+    border-style: double;
+    height: 120px;
+    width: 400px;
+    margin-top: 50px;
+    place-items: center;
+    text-align: center;
+    font-size: large;
+}
+.cbtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px; 
+    border: none; 
+    cursor: pointer; 
+}
+#c1{
+    background-color: blue;
+}
+#c2{
+    background-color: red;
+}
+#c3{
+    background-color: greenyellow;
+}
+#c4{
+    background-color: gold;
+}
+#c5{
+    background-color: palevioletred;
+}
+#c6{
+    background-color: seagreen;
+}
+#c7{
+    background-color: darkorange;
+}
+#c8{
+    background-color: crimson;
+}
+
