@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password manager App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    
+    <nav>
+    <div class="logo"> <b>Password Manager App </b></div>
+    <ul class="navbar">
+        <li class="menu"><b>Home</b></li>
+        <li class="menu"><b>Contact</b></li>
+    </ul>
+    </nav>
+    <div class="container">
+        <br>
+        <center><h1 class="head1">Your Password history</h1>
+            <br>
+            <input id="box1" type="button" onclick="view()" value="view">
+            <br>
+        </center>
+
+        <center><table class="table" style="width: 80vw;">
+            
+        </table></center>
+        <br><br>
+    <center><h1 class="head2">Save your Password details</h1></center>
+    <br><br><br>
+    <center><form action="/save" method="post" id="mydetails">
+        <br><br>
+        <div class="form-label">
+            <label for="website"><b> Website :- </label>
+            <input type="text" id="website" name="website" >
+        </div>
+        <br>
+        <div class="form-label">
+            <label for="username"><b> Username :- </label>
+            <input type="text" id="username" name="username" >
+        </div>
+        <br>
+        <div class="form-label">
+            <label for="password"><b>Password :- </b></label>
+            <input type="password" id="password" name="password"  >
+        </div>
+        <br>
+        <center>
+            <button type="submit" id="button">Save</button>
+            &nbsp;
+            <input id="box1" type="button" onclick="resetmyform()" value="Clear">
+        </center>
+        <br>
+    </form></center>
+    <script src="script1.js"></script>
+
+</body>
+</html>
